@@ -4,6 +4,7 @@
   "description": "A calendar to keep track of your headaches and help your doctor",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint . --ext .ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,5 +16,9 @@
     "@typescript-eslint/eslint-plugin": "^4.20.0",
     "@typescript-eslint/parser": "^4.20.0",
     "eslint": "^7.23.0"
+  },
+  "dependencies": {
+    "save-dev": "0.0.1-security",
+    "typescript": "^4.2.3"
   }
 }
