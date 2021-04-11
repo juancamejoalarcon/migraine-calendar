@@ -1,0 +1,21 @@
+.migraine-creator {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  &__container {
+    font-size: 30px;
+  }
+  &__form {
+    &__inputRadio {
+      display: flex;
+      flex-direction: column;
+    }
+    &__inputCheckboxes {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
